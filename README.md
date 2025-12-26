@@ -5,6 +5,16 @@ The models were **trained using Favoriot platform ML features** and are ready fo
 
 > **Note:** The models were trained in **Python 3.12++**. Ensure your deployment environment uses Python 3.12 or higher.
 
+## 📊 Offline Inference Pipeline (Favoriot ML Features)
+
+```mermaid
+flowchart TD
+    A[Raw Sensor Data] --> B[Scaler - joblib from Favoriot]
+    B --> C[ML Model - pkl trained on Favoriot]
+    C --> D[Inference Output]
+    D --> E[Local Result]
+
+
 
 ---
 
@@ -53,12 +63,3 @@ python supervised_classification_inference.py
 python supervised_regression_inference.py
 python unsupervised_clustering_inference.py
 ```
-## 📊 Offline Inference Pipeline (Favoriot ML Features)
-
-```mermaid
-flowchart TD
-    A[Raw Sensor Data] --> B[Scaler - joblib from Favoriot]
-    B --> C[ML Model - pkl trained on Favoriot]
-    C --> D[Inference Output]
-    D --> E[Local Result]
-
