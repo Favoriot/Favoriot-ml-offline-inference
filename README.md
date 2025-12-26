@@ -61,3 +61,7 @@ python supervised_classification_inference.py
 python supervised_regression_inference.py
 python unsupervised_clustering_inference.py
 ```
+
+## Tutorial & Documentation
+- [YouTube Video Tutorial](https://youtu.be/FBQ2nDjkxO0?si=KRVEycvLU4flxAmE)
+- [Official Documentation](https://platform.favoriot.com/tutorial/v2/#machine-learning)
