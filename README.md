@@ -53,3 +53,14 @@ python supervised_classification_inference.py
 python supervised_regression_inference.py
 python unsupervised_clustering_inference.py
 ```
+## 📊 Offline Inference Pipeline (Favoriot ML Features)
+
+Below is the flow of **offline inference** using models trained on the Favoriot platform:
+
+```mermaid
+flowchart TD
+    A[Raw Sensor Data] --> B[Scaler (.joblib) from Favoriot]
+    B --> C[ML Model (.pkl) trained on Favoriot]
+    C --> D[Inference Output]
+    D --> E[Local Result]
+
