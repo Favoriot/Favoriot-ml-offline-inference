@@ -13,9 +13,7 @@ flowchart TD
     B --> C[ML Model - pkl trained on Favoriot]
     C --> D[Inference Output]
     D --> E[Local Result]
-
-
-
+```
 ---
 
 ## Supported ML Features (Favoriot Platform)
