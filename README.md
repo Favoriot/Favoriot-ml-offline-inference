@@ -1,0 +1,1 @@
+# Favoriot-ml-offline-inference
